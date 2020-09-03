@@ -1,0 +1,133 @@
+.border {
+	width: 235px;
+	height: 300px;
+	border: 2px solid grey !important;
+}
+.somebutton {
+	padding-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: darkslateblue;
+}
+ul {
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+.borderend {
+	border: 2px solid black !important;
+	width: 800px;
+	height: 20px;
+
+}
+
+
+.form-contraol {
+
+}
+.border1 {
+	width: 235px;
+	height: 155px;
+	border: 2px solid black !important;
+	padding-right: 3px;
+}
+.border1 h1 {
+	color: rgb(58, 174, 89);
+	padding-top: 4px;
+	padding-left: 10px;
+	font-size: 30px;
+}
+.border2 {
+	width: 233px;
+	height: 50px;
+	border: 2px solid black !important;
+}
+.border2 h1 {
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-top: 10px;
+}
+.something {
+	text-align: center;
+	width: 50%;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.something input {
+	border: 2px solid darkgrey !important;
+}
+
+.bordertext {
+	margin-top: 90px;
+	border: 2px solid black !important;
+	width: 800px;
+	height: 50px;
+
+}
+.bordertext h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/* CSS Document */
+
+body{margin-top: 50px; margin-bottom: 100px;}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+    padding-top: 50px;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 300px;
+    max-width: 300px;
+    overflow:hidden;
+}
+.card-img-top-250 img {
+	width: 180px;
+	height: 250px;
+}
+.borderimg img {
+	max-width: 150px;
+	max-height: 300px;
+	margin-top: 20px;
+	margin-left: 22px;
+}
+.borderimg {
+	width: 200px;
+	height: 350px;
+	border: 2px solid black !important;
+}
+
+.p {width: 11rem; height: 1rem;}
+
+.card-header{color:dodgerblue}
